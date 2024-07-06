@@ -164,9 +164,9 @@ variable "rds_db_instance_1_max_allocated_storage" {
 }
 
 variable "rds_storage_type" {
-  description = "The type of storage to use for the RDS instance (e.g., 'gp2', 'io1', or 'standard')"
+  description = "The type of storage to use for the RDS instance (e.g. gp2, gp3, io1, st1, sc1)"
   type        = string
-  default     = "gp2"
+  default     = "gp3"
 }
 
 variable "rds_storage_encrypted" {

@@ -1,6 +1,7 @@
 # An RDS instance in its own VPC: Terraform
 
 [![Terraform Verification](https://github.com/heyvaldemar/amazon-rds-pipeline-terraform/actions/workflows/terraform-verification.yml/badge.svg?branch=main)](https://github.com/heyvaldemar/amazon-rds-pipeline-terraform/actions/workflows/terraform-verification.yml)
+[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/14836/badge)](https://www.bestpractices.dev/projects/14836)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This repository deploys an RDS instance in a purpose-built VPC with private subnets, a NAT gateway for egress, flow logs, and a self-provisioned Terraform state backend. Flat, numbered `.tf` files, no modules to chase, every provider locked to an exact build.
